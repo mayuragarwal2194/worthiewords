@@ -1,0 +1,304 @@
+:root {
+  --green: #1bae70;
+  --black: #000000;
+  --white: #fff;
+  --bg-gray: #f4f6f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+/* Css  for Navbar */
+.nav-menu a{
+  color: var(--black);
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.logo-image{
+  width: 200px;
+  height: 40px;
+}
+
+.logo-image img{
+  object-fit: cover;
+}
+
+.nav-menu li a{
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+.nav-menu li a:hover{
+  color: var(--green) !important;
+}
+
+/* Css for Hero Banner */
+.banner-head {
+  font-size: 50px;
+}
+
+.letest-blog-button a {
+  color: var(--green);
+}
+
+.banner-image {
+  height: 800px;
+}
+
+.banner-image img {
+  object-fit: cover;
+}
+
+.section-heading h2 {
+  font-size: 40px;
+}
+
+.section-heading-underline {
+  width: 100px;
+  height: 2px;
+  background-color: var(--black);
+}
+
+.about-us-section {
+  background-color: var(--bg-gray);
+}
+
+.aboutus-section-description p:last-child {
+  margin-bottom: 0;
+}
+
+.read-more-btn {
+  padding: 8px 40px;
+  transition: all ease 0.2s;
+}
+
+.read-more-btn:hover {
+  color: var(--white);
+  background-color: var(--black) !important;
+}
+
+/* Css for Collage section */
+.collage-image {
+  height: 600px;
+}
+
+.collage-image img {
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.pen-nib {
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--green);
+  transition: all ease 0.2s;
+}
+
+.pen-nib i{
+  transition: all ease 0.2s;
+}
+
+.pen-nib:hover {
+  border-color: #06752e;
+}
+
+.pen-nib:hover i {
+  color: #06752e !important;
+}
+
+/* Css for recent blog */
+.play-btn-circle {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--green);
+  transition: all ease 0.2s;
+}
+
+.play-btn-circle i {
+  font-size: 14px;
+  transition: all ease 0.2s;
+}
+
+.play-btn-circle:hover{
+  border-color: #06752e;
+}
+
+.play-btn-circle:hover i{
+  color: #06752e;
+}
+
+/* Css for testimonial section */
+.testimonial-bg {
+  background-color: #14261c;
+}
+
+.testimonial-section .card-text {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.testimonial-section .card-body {
+  padding: 32px;
+}
+
+.testimonial-section .address {
+  font-size: 12px;
+}
+
+.newsletter-section input {
+  padding: 7px 16px;
+  width: 390px;
+}
+
+.newsletter-section button,
+.contactus-form button,
+.comment-form button
+{
+  border: 1px solid var(--green);
+  padding: 8px 40px;
+}
+
+.newsletter-section{
+  background-color: var(--bg-gray);
+}
+
+.copyright-section{
+  border-top: 1px solid #80808038;
+}
+
+
+/* Css for Contact Us Page */
+.plateform{
+  transition: all ease 0.2s;
+}
+
+.plateform:hover{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16);
+}
+
+.contactus-main iframe{
+  height: 700px;
+}
+
+/* Css for about us page */
+.about-banner-image{
+  height: 350px;
+}
+
+.about-banner-image img{
+  object-fit: cover;
+}
+
+.host-section img{
+  border-radius: 24px;
+}
+
+.our-story-section p,
+.host-section p
+{
+  line-height: 1.8;
+}
+
+/* Css For Blog Section */
+.blog-card-image{
+  width: 100%;
+  height: 306px;
+}
+
+.blog-card-image img{
+  object-fit: cover;
+}
+
+.current-menu-item a{
+  color: var(--green) !important;
+} 
+
+.single-image{
+  width: 300px;
+  height: 200px;
+}
+
+.single-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.wp-pagenavi{
+  margin: auto;
+}
+
+
+/* Css For Comment Form */
+.comment-section .comment-form label{
+  display: block;
+}
+
+.comment-section .comment-form label[for="wp-comment-cookies-consent"]{
+  display: inline-block;
+}
+
+.comment-section .comment-form input,
+.comment-section .comment-form textarea
+{
+  width: 100%;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius:4px ;
+  padding: 6px 12px;
+}
+
+.comment-section .comment-form textarea{
+  height: 130px;
+}
+
+.comment-section #submit{
+  width: fit-content;
+  background-color: var(--green);
+  border: 1px solid var(--green);
+  padding: 8px 40px;
+  color: white;
+}
+
+.comment-section .comment-form input[type="checkbox"]{
+  width: fit-content;
+}
